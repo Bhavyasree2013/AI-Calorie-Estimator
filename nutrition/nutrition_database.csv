@@ -1,0 +1,21 @@
+food,calories,protein,carbs,fat,category
+pizza,285,12,36,10,Moderate
+burger,354,17,29,18,High
+biryani,290,8,40,9,Moderate
+dosa,120,3,20,2,Healthy
+idli,80,2,17,0,Healthy
+cake,350,4,50,15,High
+chapati,120,3,18,2,Healthy
+chicken curry,240,18,6,14,Moderate
+dal,150,9,20,1,Healthy
+french fries,365,4,48,17,High
+fried rice,330,7,45,10,High
+ice cream,207,3,24,11,Moderate
+momos,200,8,25,5,Moderate
+noodles,220,6,38,5,Moderate
+paneer curry,300,15,12,22,High
+pasta,260,8,42,6,Moderate
+salad,100,3,12,2,Healthy
+samosa,260,5,28,15,High
+sandwich,250,10,30,8,Moderate
+upma,180,4,30,5,Healthy

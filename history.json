@@ -1,0 +1,120 @@
+[
+    {
+        "date": "2026-07-11 23:59",
+        "calories": 0,
+        "confidence": 0
+    },
+    {
+        "date": "2026-07-12 00:05",
+        "calories": 0,
+        "confidence": 0
+    },
+    {
+        "date": "2026-07-12 00:25",
+        "food": "sandwich",
+        "calories": 250,
+        "confidence": 99.44552779197693
+    },
+    {
+        "date": "2026-07-12 12:33",
+        "food": "sandwich",
+        "calories": 250,
+        "confidence": 99.44552779197693
+    },
+    {
+        "date": "2026-07-12 12:34",
+        "food": "sandwich",
+        "calories": 250,
+        "confidence": 99.44552779197693
+    },
+    {
+        "date": "2026-07-12 12:42",
+        "food": "sandwich",
+        "calories": 250,
+        "confidence": 82.41199254989624
+    },
+    {
+        "date": "2026-07-12 12:43",
+        "food": "sandwich",
+        "calories": 250,
+        "confidence": 82.41199254989624
+    },
+    {
+        "date": "2026-07-12 12:43",
+        "food": "sandwich",
+        "calories": 250,
+        "confidence": 82.41199254989624
+    },
+    {
+        "date": "2026-07-12 12:43",
+        "food": "sandwich",
+        "calories": 250,
+        "confidence": 82.41199254989624
+    },
+    {
+        "date": "2026-07-12 13:19",
+        "food": "sandwich",
+        "calories": 250,
+        "confidence": 99.44552779197693
+    },
+    {
+        "date": "2026-07-12 13:19",
+        "food": "sandwich",
+        "calories": 250,
+        "confidence": 99.44552779197693
+    },
+    {
+        "date": "2026-07-12 13:28",
+        "food": "sandwich",
+        "calories": 250,
+        "confidence": 99.44552779197693
+    },
+    {
+        "date": "2026-07-12 13:28",
+        "food": "sandwich",
+        "calories": 250,
+        "confidence": 99.44552779197693
+    },
+    {
+        "date": "2026-07-12 13:36",
+        "food": "sandwich",
+        "calories": 250,
+        "confidence": 99.44552779197693
+    },
+    {
+        "date": "2026-07-12 13:37",
+        "food": "sandwich",
+        "calories": 250,
+        "confidence": 99.44552779197693
+    },
+    {
+        "date": "2026-07-12 13:38",
+        "food": "sandwich",
+        "calories": 250,
+        "confidence": 99.44552779197693
+    },
+    {
+        "date": "2026-07-12 13:38",
+        "food": "sandwich",
+        "calories": 250,
+        "confidence": 99.44552779197693
+    },
+    {
+        "date": "2026-07-12 13:41",
+        "food": "sandwich",
+        "calories": 250,
+        "confidence": 99.44552779197693
+    },
+    {
+        "date": "2026-07-23 11:18",
+        "food": "sandwich",
+        "calories": 250,
+        "confidence": 77.24
+    },
+    {
+        "date": "2026-07-23 11:23",
+        "food": "sandwich",
+        "calories": 250,
+        "confidence": 92.91
+    }
+]
