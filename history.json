@@ -116,5 +116,45 @@
         "food": "sandwich",
         "calories": 250,
         "confidence": 92.91
+    },
+    {
+        "date": "2026-08-05 23:36",
+        "food": "pizza",
+        "calories": 285,
+        "protein": 12.0,
+        "carbs": 36.0,
+        "fat": 10.0,
+        "category": "Moderate",
+        "confidence": 44.46
+    },
+    {
+        "date": "2026-08-06 13:56",
+        "food": "pizza",
+        "calories": 285,
+        "protein": 12.0,
+        "carbs": 36.0,
+        "fat": 10.0,
+        "category": "Moderate",
+        "confidence": 87.28
+    },
+    {
+        "date": "2026-08-06 14:03",
+        "food": "cake",
+        "calories": 350,
+        "protein": 4.0,
+        "carbs": 50.0,
+        "fat": 15.0,
+        "category": "High",
+        "confidence": 46.15
+    },
+    {
+        "date": "2026-08-06 14:04",
+        "food": "cake",
+        "calories": 350,
+        "protein": 4.0,
+        "carbs": 50.0,
+        "fat": 15.0,
+        "category": "High",
+        "confidence": 68.53
     }
 ]

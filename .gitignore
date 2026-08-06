@@ -1,9 +1,24 @@
+# Python
 __pycache__/
 *.pyc
-.env
+
+# Virtual Environments
+.venv/
 venv/
-.history/
-.history.json
-Nutrition_Report.pdf
+env/
+
+# Environment
+.env
+
+# Streamlit/Data
+history.json
 prediction_history.csv
-*.log
+Nutrition_Report.pdf
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
