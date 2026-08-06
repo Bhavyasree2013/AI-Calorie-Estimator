@@ -1,23 +1,31 @@
 # Python
 __pycache__/
 *.pyc
+*.pyo
 
 # Virtual Environments
 .venv/
 venv/
 env/
 
-# Environment
+# Environment Variables
 .env
 
-# Streamlit/Data
+# Streamlit
+.streamlit/
+
+# VS Code
+.vscode/
+
+# History
 history.json
 prediction_history.csv
+
+# Reports
 Nutrition_Report.pdf
 
-# IDE
-.vscode/
-.idea/
+# Jupyter
+.ipynb_checkpoints/
 
 # OS
 .DS_Store
