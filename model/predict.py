@@ -1,13 +1,14 @@
 import numpy as np
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing import image
-import os
+from pathlib import Path
 
 # ==========================================
 # LOAD MODEL
 # ==========================================
 
-MODEL_PATH = os.path.join("model", "food_model.h5")
+BASE_DIR = Path(__file__).resolve().parent.parent
+MODEL_PATH = BASE_DIR / "model" / "food_model.h5"
 
 model = load_model(MODEL_PATH)
 

@@ -31,26 +31,6 @@ if not GROQ_KEY:
 
 client = Groq(api_key=GROQ_KEY)
 
-
-
-GROQ_KEY = os.getenv("GROQ_API_KEY")
-
-
-print("==============================")
-print("GROQ KEY EXISTS:", bool(GROQ_KEY))
-print("GROQ KEY START:", GROQ_KEY[:10] if GROQ_KEY else "NONE")
-print("==============================")
-
-
-if not GROQ_KEY:
-    raise Exception("GROQ_API_KEY missing")
-
-
-client = Groq(
-    api_key=GROQ_KEY
-)
-
-
 # ==============================
 # IMPORT MODEL
 # ==============================
