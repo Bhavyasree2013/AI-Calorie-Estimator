@@ -9,35 +9,28 @@ from dotenv import load_dotenv
 from fastapi import FastAPI, UploadFile, File, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 
-
-
+from groq import Groq
 
 # ==============================
-# LOAD ENV
+# BASE DIRECTORY
 # ==============================
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-env_path = BASE_DIR / ".env"
-
-load_dotenv(
-    dotenv_path=env_path,
-    override=True
-)
-
-print("ENV PATH:", env_path)
-print("ENV EXISTS:", env_path.exists())
-
-with open(env_path,"r") as f:
-    print(f.read())
-
-print("GROQ VALUE:", os.getenv("GROQ_API_KEY"))
 
 # ==============================
-# GEMINI CONFIG
+# ENVIRONMENT / GROQ CONFIG
 # ==============================
 
-from groq import Groq
+load_dotenv()
+
+GROQ_KEY = os.getenv("GROQ_API_KEY")
+
+if not GROQ_KEY:
+    raise RuntimeError("GROQ_API_KEY is not configured")
+
+client = Groq(api_key=GROQ_KEY)
+
 
 
 GROQ_KEY = os.getenv("GROQ_API_KEY")

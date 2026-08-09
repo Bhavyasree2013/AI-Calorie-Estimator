@@ -30,3 +30,7 @@ Nutrition_Report.pdf
 # OS
 .DS_Store
 Thumbs.db
+
+# Dataset
+
+dataset/
